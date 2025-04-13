@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ctmod:item/constantan_ingot"
+    "layer0": "ctmod:item/enderium_ingot"
   }
 }
