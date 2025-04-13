@@ -55,6 +55,7 @@ public class CRTab {
 
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                         pOutput.accept(ModItems.STEEL_INGOT.get());
+                        pOutput.accept(ModItems.COAL_COKE.get());
 
                     })
                     .build());

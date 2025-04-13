@@ -1,6 +1,7 @@
 package net.cat.ctmod.item;
 
 import net.cat.ctmod.CatTech;
+import net.cat.ctmod.item.custom.FuelItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -55,6 +56,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke",
+            () -> new FuelItem(new Item.Properties(),16000));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
