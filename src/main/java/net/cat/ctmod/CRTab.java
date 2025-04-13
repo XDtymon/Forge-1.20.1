@@ -34,8 +34,27 @@ public class CRTab {
                         pOutput.accept(ModBlocks.ENDERIUM_BLOCK.get());
                         pOutput.accept(ModItems.ENDERIUM_INGOT.get());
 
+                        pOutput.accept(ModItems.ALUMIUNIUM_INGOT.get());
 
+                        pOutput.accept(ModItems.BRONZE_INGOT.get());
 
+                        pOutput.accept(ModItems.CONSTANTAN_INGOT.get());
+
+                        pOutput.accept(ModItems.IRIDIUM_INGOT.get());
+
+                        pOutput.accept(ModItems.LEAD_INGOT.get());
+
+                        pOutput.accept(ModItems.NICKEL_INGOT.get());
+
+                        pOutput.accept(ModItems.PLATINUM_INGOT.get());
+
+                        pOutput.accept(ModItems.SILVER_INGOT.get());
+
+                        pOutput.accept(ModBlocks.TIN_BLOCK.get());
+                        pOutput.accept(ModItems.TIN_INGOT.get());
+
+                        pOutput.accept(ModBlocks.STEEL_BLOCK.get());
+                        pOutput.accept(ModItems.STEEL_INGOT.get());
 
                     })
                     .build());

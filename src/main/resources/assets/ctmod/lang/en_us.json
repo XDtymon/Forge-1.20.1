@@ -4,10 +4,20 @@
   "item.ctmod.signalum_ingot": "Signalum Ingot",
   "item.ctmod.lumium_ingot": "Lumium Ingot",
   "item.ctmod.enderium_ingot": "Enderium Ingot",
-
+  "item.ctmod.aluminum_ingot": "Aluminium Ingot",
+  "item.ctmod.bronze_ingot": "Bronze Ingot",
+  "item.ctmod.constantan_ingot": "Constantan Ingot",
+  "item.ctmod.iridium_ingot": "Iridium Ingot",
+  "item.ctmod.lead_ingot": "Lead Ingot",
+  "item.ctmod.nickel_ingot": "Nickel Ingot",
+  "item.ctmod.platinum_ingot": "Platinum Ingot",
+  "item.ctmod.silver_ingot": "Silver Ingot",
+  "item.ctmod.tin_ingot": "Tin Ingot",
 
 
   "block.ctmod.invar_block": "Invar Block",
+  "block.ctmod.tin_block": "Tin Block",
+  "block.ctmod.steel_block": "Steel Block",
   "block.ctmod.electrum_block": "Electrum Block",
   "block.ctmod.lumium_block": "Lumium Block",
   "block.ctmod.signalum_block": "Signalum Block",
