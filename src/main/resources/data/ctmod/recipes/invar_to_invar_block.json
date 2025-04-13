@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ctmod:invar_ingot"
+    }
+  },
+  "result": {
+    "item": "ctmod:invar_block"
+  }
+}

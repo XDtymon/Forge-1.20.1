@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ctmod:signalum_ingot"
+    }
+  },
+  "result": {
+    "item": "ctmod:signalum_block"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "item.ctmod.invar_ingot": "Invar Ingot",
+  "item.ctmod.electrum_ingot": "Electrum Ingot",
+  "item.ctmod.signalum_ingot": "Signalum Ingot",
+  "item.ctmod.lumium_ingot": "Lumium Ingot",
+  "item.ctmod.enderium_ingot": "Enderium Ingot",
+
+
+
+  "block.ctmod.invar_block": "Invar Block",
+  "block.ctmod.electrum_block": "Electrum Block",
+  "block.ctmod.lumium_block": "Lumium Block",
+  "block.ctmod.signalum_block": "Signalum Block",
+  "block.ctmod.enderium_block": "Enderium Block",
+
+
+  "creativetab.tab_1": "CatTech"
+}

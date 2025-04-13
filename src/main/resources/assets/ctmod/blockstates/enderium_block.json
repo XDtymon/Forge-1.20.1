@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ctmod:block/enderium_block"
+    }
+  }
+}

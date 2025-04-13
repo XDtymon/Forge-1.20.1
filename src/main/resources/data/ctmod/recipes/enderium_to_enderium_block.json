@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ctmod:enderium_ingot"
+    }
+  },
+  "result": {
+    "item": "ctmod:enderium_block"
+  }
+}
