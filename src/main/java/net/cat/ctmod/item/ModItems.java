@@ -1,12 +1,18 @@
 package net.cat.ctmod.item;
 
 import net.cat.ctmod.CatTech;
+import net.cat.ctmod.block.ModBlocks;
 import net.cat.ctmod.item.custom.FuelItem;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import javax.annotation.Nullable;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -59,6 +65,15 @@ public class ModItems {
 
     public static final RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke",
             () -> new FuelItem(new Item.Properties(),16000));
+    public static final RegistryObject<Item> FUEL_BLOCK_ITEM = ModItems.ITEMS.register("coal_coke_block",
+            () -> new BlockItem(ModBlocks.COAL_COKE_BLOCK.get(),
+                    new Item.Properties()) {
+                @Override
+                public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+                    return 16000;
+                }
+            });
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
