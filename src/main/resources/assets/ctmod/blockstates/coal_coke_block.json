@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "ctmod:block/fuel_block" }
+    "": {
+      "model": "ctmod:block/coal_coke_block"
+    }
   }
 }

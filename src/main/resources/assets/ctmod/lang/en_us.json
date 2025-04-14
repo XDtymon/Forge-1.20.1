@@ -13,9 +13,10 @@
   "item.ctmod.platinum_ingot": "Platinum Ingot",
   "item.ctmod.silver_ingot": "Silver Ingot",
   "item.ctmod.tin_ingot": "Tin Ingot",
+  "item.ctmod.coal_coke": "Coal Coke",
 
 
-  "block.ctmod.fuel_block": "Coal Coke Block",
+  "block.ctmod.coal_coke_block": "Coal Coke Block",
   "block.ctmod.invar_block": "Invar Block",
   "block.ctmod.tin_block": "Tin Block",
   "block.ctmod.steel_block": "Steel Block",
