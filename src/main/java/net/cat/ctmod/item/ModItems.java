@@ -39,7 +39,7 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> ALUMIUNUM_INGOT = ITEMS.register("aluminum_ingot",
+    public static final RegistryObject<Item> ALUMINIUM_INGOT = ITEMS.register("aluminium_ingot",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> IRIDIUM_INGOT = ITEMS.register("iridium_ingot",

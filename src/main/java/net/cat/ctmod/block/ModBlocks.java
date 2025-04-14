@@ -47,6 +47,12 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> COAL_COKE_BLOCK = BLOCKS.register("coal_coke_block",
             () -> new FuelBlock(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+    public static final RegistryObject<Block> ALUMINIUM_BLOCK = BLOCKS.register("aluminium_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> BRONZE_BLOCK = BLOCKS.register("bronze_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> CONSTANTAN_BLOCK = BLOCKS.register("constantan_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
 
