@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "ctmod:block/aluminum_block"
+    "all": "ctmod:block/aluminium_block"
   }
 }
