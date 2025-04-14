@@ -1,10 +1,9 @@
 package net.cat.ctmod.block;
 
 import net.cat.ctmod.CatTech;
-import net.cat.ctmod.item.ModItems;
+import net.cat.ctmod.block.custom.FuelBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -14,6 +13,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
+
+import static net.cat.ctmod.item.ModItems.ITEMS;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -44,6 +45,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> PLATINUM_BLOCK = registerBlock("platinum_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> COAL_COKE_BLOCK = BLOCKS.register("coal_coke_block",
+            () -> new FuelBlock(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
@@ -55,7 +60,7 @@ public class ModBlocks {
 
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        return ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
 
