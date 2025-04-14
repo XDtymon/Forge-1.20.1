@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ctmod:coal_coke"
+    }
+  },
+  "result": {
+    "item": "ctmod:coal_coke_block"
+  }
+}

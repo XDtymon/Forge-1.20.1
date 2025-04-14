@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ctmod:constantan_block"
+    }
+  ],
+  "result": {
+    "item": "ctmod:constantan_ingot",
+    "count": 9
+  }
+}

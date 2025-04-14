@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ctmod:iridium_block"
+    }
+  ],
+  "result": {
+    "item": "ctmod:iridium_ingot",
+    "count": 9
+  }
+}

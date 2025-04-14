@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ctmod:iridium_ingot"
+    }
+  },
+  "result": {
+    "item": "ctmod:iridium_block"
+  }
+}

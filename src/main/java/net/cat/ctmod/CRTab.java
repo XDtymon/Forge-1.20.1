@@ -34,6 +34,7 @@ public class CRTab {
                         pOutput.accept(ModBlocks.ENDERIUM_BLOCK.get());
                         pOutput.accept(ModItems.ENDERIUM_INGOT.get());
 
+                        pOutput.accept(ModBlocks.ALUMINIUM_BLOCK.get());
                         pOutput.accept(ModItems.ALUMINIUM_INGOT.get());
 
                         pOutput.accept(ModBlocks.BRONZE_BLOCK.get());
@@ -63,6 +64,7 @@ public class CRTab {
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                         pOutput.accept(ModItems.STEEL_INGOT.get());
 
+                        pOutput.accept(ModBlocks.COAL_COKE_BLOCK.get());
                         pOutput.accept(ModItems.COAL_COKE.get());
 
                     })
