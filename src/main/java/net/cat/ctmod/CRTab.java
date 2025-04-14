@@ -34,20 +34,28 @@ public class CRTab {
                         pOutput.accept(ModBlocks.ENDERIUM_BLOCK.get());
                         pOutput.accept(ModItems.ENDERIUM_INGOT.get());
 
+                        pOutput.accept(ModBlocks.ALUMINUM_BLOCK.get());
                         pOutput.accept(ModItems.ALUMIUNUM_INGOT.get());
 
+                        pOutput.accept(ModBlocks.BRONZE_BLOCK.get());
                         pOutput.accept(ModItems.BRONZE_INGOT.get());
 
+                        pOutput.accept(ModBlocks.CONSTANTAN_BLOCK.get());
                         pOutput.accept(ModItems.CONSTANTAN_INGOT.get());
 
+                        pOutput.accept(ModBlocks.IRIDIUM_BLOCK.get());
                         pOutput.accept(ModItems.IRIDIUM_INGOT.get());
 
+                        pOutput.accept(ModBlocks.LEAD_BLOCK.get());
                         pOutput.accept(ModItems.LEAD_INGOT.get());
 
+                        pOutput.accept(ModBlocks.NICKEL_BLOCK.get());
                         pOutput.accept(ModItems.NICKEL_INGOT.get());
 
+                        pOutput.accept(ModBlocks.PLATINUM_BLOCK.get());
                         pOutput.accept(ModItems.PLATINUM_INGOT.get());
 
+                        pOutput.accept(ModBlocks.SILVER_BLOCK.get());
                         pOutput.accept(ModItems.SILVER_INGOT.get());
 
                         pOutput.accept(ModBlocks.TIN_BLOCK.get());
@@ -55,6 +63,8 @@ public class CRTab {
 
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                         pOutput.accept(ModItems.STEEL_INGOT.get());
+
+                        pOutput.accept(ModBlocks.COAL_COKE_BLOCK.get());
                         pOutput.accept(ModItems.COAL_COKE.get());
 
                     })

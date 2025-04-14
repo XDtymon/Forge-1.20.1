@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "ctmod:block/signalum_block"
+      "model": "ctmod:block/nickel_block"
     }
   }
 }
