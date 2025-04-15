@@ -24,8 +24,16 @@
   "block.ctmod.lumium_block": "Lumium Block",
   "block.ctmod.signalum_block": "Signalum Block",
   "block.ctmod.enderium_block": "Enderium Block",
+  "block.ctmod.platinum_block": "Platinum Block",
+  "block.ctmod.invar_block": "Invar Block",
+  "block.ctmod.aluminium_block": "Aluminium Block",
+  "block.ctmod.bronze_block": "Bronze Block",
+  "block.ctmod.iridium_block": "Iridium Block",
+  "block.ctmod.lead_block": "Lead Block",
+  "block.ctmod.nickel_block": "Nickel Block",
+  "block.ctmod.silver_block": "Silver Block",
+  "block.ctmod.constantan_block": "Conastantan Block",
 
-  "item.ctmod.coal_coke": "Coal Coke",
 
   "creativetab.tab_1": "CatTech"
 }

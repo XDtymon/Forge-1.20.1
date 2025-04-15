@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "has_coal_coke": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ctmod:coal_coke"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_coal_coke"]
+  ],
+  "rewards": {
+    "recipes": [
+      "ctmod:coal_coke_block"
+    ]
+  }
+}
