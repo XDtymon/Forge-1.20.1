@@ -33,6 +33,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SILVER_NUGGET);
         simpleItem(ModItems.STEEL_NUGGET);
         simpleItem(ModItems.TIN_NUGGET);
+        simpleItem(ModItems.ENDERIUM_NUGGET);
+        simpleItem(ModItems.SIGNALUM_NUGGET);
 
 
 
