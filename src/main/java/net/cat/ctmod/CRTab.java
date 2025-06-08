@@ -61,8 +61,10 @@ public class CRTab {
                         pOutput.accept(ModItems.LEAD_NUGGET.get());
 
                         pOutput.accept(ModBlocks.NICKEL_BLOCK.get());
+                        pOutput.accept(ModBlocks.NICKEL_ORE.get());
                         pOutput.accept(ModItems.NICKEL_INGOT.get());
                         pOutput.accept(ModItems.NICKEL_NUGGET.get());
+                        pOutput.accept(ModItems.RAW_NICKE_ORE.get());
 
                         pOutput.accept(ModBlocks.PLATINUM_BLOCK.get());
                         pOutput.accept(ModItems.PLATINUM_INGOT.get());
@@ -82,7 +84,6 @@ public class CRTab {
 
                         pOutput.accept(ModBlocks.COAL_COKE_BLOCK.get());
                         pOutput.accept(ModItems.COAL_COKE.get());
-
                     })
                     .build());
 

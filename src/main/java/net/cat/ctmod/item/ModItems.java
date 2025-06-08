@@ -91,6 +91,9 @@ public class ModItems {
     public static final RegistryObject<Item> NICKEL_NUGGET = ITEMS.register("nickel_nugget",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_NICKE_ORE = ITEMS.register("raw_nickel_ore",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             () -> new Item(new Item.Properties()));
 
