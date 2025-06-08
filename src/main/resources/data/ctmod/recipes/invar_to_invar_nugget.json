@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ctmod:invar_ingot"
+    }
+  ],
+  "result": {
+    "item": "ctmod:invar_nugget",
+    "count": 9
+  }
+}

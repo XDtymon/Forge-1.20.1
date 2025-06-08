@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ctmod:signalum_ingot"
+    }
+  ],
+  "result": {
+    "item": "ctmod:signalum_nugget",
+    "count": 9
+  }
+}

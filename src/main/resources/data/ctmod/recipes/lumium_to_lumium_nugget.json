@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ctmod:lumium_ingot"
+    }
+  ],
+  "result": {
+    "item": "ctmod:lumium_nugget",
+    "count": 9
+  }
+}

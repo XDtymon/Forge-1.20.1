@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ctmod:aluminium_nugget"
+    }
+  },
+  "result": {
+    "item": "ctmod:aluminium_ingot"
+  }
+}

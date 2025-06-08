@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ctmod:lumium_nugget"
+    }
+  },
+  "result": {
+    "item": "ctmod:lumium_ingot"
+  }
+}

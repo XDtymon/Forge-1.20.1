@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ctmod:nickel_ingot"
+    }
+  ],
+  "result": {
+    "item": "ctmod:nickel_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ctmod:platinum_nugget"
+    }
+  },
+  "result": {
+    "item": "ctmod:platinum_ingot"
+  }
+}
