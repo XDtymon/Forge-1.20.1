@@ -9,14 +9,14 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.function.Consumer;
 
-/*public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
+public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
     }
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COAL_COKE_BLOCK.get())
+        /* ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COAL_COKE_BLOCK.get())
                 .pattern("CCC")
                 .pattern("CCC")
                 .pattern("CCC")
@@ -26,6 +26,6 @@ import java.util.function.Consumer;
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.COAL_COKE, 9)
                 .requires(ModBlocks.INVAR_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.INVAR_BLOCK), has(ModBlocks.INVAR_BLOCK.get()))
-                .save(pWriter);
+                .save(pWriter);*/
     }
-}*/
+}
