@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ctmod:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "ctmod:steel_nugget",
+    "count": 9
+  }
+}
