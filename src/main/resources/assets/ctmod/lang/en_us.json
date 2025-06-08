@@ -13,11 +13,30 @@
   "item.ctmod.platinum_ingot": "Platinum Ingot",
   "item.ctmod.silver_ingot": "Silver Ingot",
   "item.ctmod.tin_ingot": "Tin Ingot",
-  "item.ctmod.coal_coke": "Coal Coke",
   "item.ctmod.steel_ingot": "Steel Ingot",
 
 
+  "item.ctmod.invar_nugget": "Invar Nugget",
+  "item.ctmod.electrum_nugget": "Electrum Nugget",
+  "item.ctmod.signalum_nugget": "Signalum Nugget",
+  "item.ctmod.lumium_nugget": "Lumium Nugget",
+  "item.ctmod.enderium_nugget": "Enderium Nugget",
+  "item.ctmod.aluminum_nugget": "Aluminium Nugget",
+  "item.ctmod.bronze_nugget": "Bronze Nugget",
+  "item.ctmod.constantan_nugget": "Constantan Nugget",
+  "item.ctmod.iridium_nugget": "Iridium Nugget",
+  "item.ctmod.lead_nugget": "Lead Nugget",
+  "item.ctmod.nickel_nugget": "Nickel Nugget",
+  "item.ctmod.platinum_nugget": "Platinum Nugget",
+  "item.ctmod.silver_nugget": "Silver Nugget",
+  "item.ctmod.tin_nugget": "Tin Nugget",
+  "item.ctmod.steel_nugget": "Steel Nugget",
+
+
+  "item.ctmod.coal_coke": "Coal Coke",
   "block.ctmod.coal_coke_block": "Coal Coke Block",
+
+
   "block.ctmod.invar_block": "Invar Block",
   "block.ctmod.tin_block": "Tin Block",
   "block.ctmod.steel_block": "Steel Block",
