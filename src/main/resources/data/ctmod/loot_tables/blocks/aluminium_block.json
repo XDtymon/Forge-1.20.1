@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ctmod:invar_block"
+          "name": "ctmod:aluminium_block"
         }
       ],
       "rolls": 1.0

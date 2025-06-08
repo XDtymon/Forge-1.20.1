@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ctmod:invar_block"
+          "name": "ctmod:coal_coke_block"
         }
       ],
       "rolls": 1.0

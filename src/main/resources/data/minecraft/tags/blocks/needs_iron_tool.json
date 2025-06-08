@@ -1,0 +1,20 @@
+{
+  "values": [
+    "ctmod:aluminium_block",
+    "ctmod:bronze_block",
+    "ctmod:coal_coke_block",
+    "ctmod:constantan_block",
+    "ctmod:electrum_block",
+    "ctmod:enderium_block",
+    "ctmod:invar_block",
+    "ctmod:iridium_block",
+    "ctmod:lead_block",
+    "ctmod:lumium_block",
+    "ctmod:nickel_block",
+    "ctmod:platinum_block",
+    "ctmod:signalum_block",
+    "ctmod:silver_block",
+    "ctmod:steel_block",
+    "ctmod:tin_block"
+  ]
+}

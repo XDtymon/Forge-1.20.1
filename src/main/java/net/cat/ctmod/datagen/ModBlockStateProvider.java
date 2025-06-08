@@ -1,6 +1,7 @@
 package net.cat.ctmod.datagen;
 
 import net.cat.ctmod.CatTech;
+import net.cat.ctmod.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -14,7 +15,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-
+          blockWithItem(ModBlocks.ALUMINIUM_BLOCK);
     }
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));

@@ -1,6 +1,7 @@
 package net.cat.ctmod.block;
 
 import net.cat.ctmod.CatTech;
+//import net.cat.ctmod.block.custom.CokeOvenBlock;
 import net.cat.ctmod.block.custom.FuelBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -53,6 +54,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> CONSTANTAN_BLOCK = registerBlock("constantan_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    //public static final RegistryObject<Block> COKE_OVEN = registerBlock("coke_oven",
+    //       () -> new CokeOvenBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
