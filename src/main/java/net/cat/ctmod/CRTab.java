@@ -64,7 +64,7 @@ public class CRTab {
                         pOutput.accept(ModBlocks.NICKEL_ORE.get());
                         pOutput.accept(ModItems.NICKEL_INGOT.get());
                         pOutput.accept(ModItems.NICKEL_NUGGET.get());
-                        pOutput.accept(ModItems.RAW_NICKE_ORE.get());
+                        pOutput.accept(ModItems.RAW_NICKEL_ORE.get());
 
                         pOutput.accept(ModBlocks.PLATINUM_BLOCK.get());
                         pOutput.accept(ModItems.PLATINUM_INGOT.get());
@@ -73,6 +73,8 @@ public class CRTab {
                         pOutput.accept(ModBlocks.SILVER_BLOCK.get());
                         pOutput.accept(ModItems.SILVER_INGOT.get());
                         pOutput.accept(ModItems.SILVER_NUGGET.get());
+                        pOutput.accept(ModItems.RAW_SILVER_ORE.get());
+                        pOutput.accept(ModItems.SILVER_ORE.get());
 
                         pOutput.accept(ModBlocks.TIN_BLOCK.get());
                         pOutput.accept(ModItems.TIN_INGOT.get());

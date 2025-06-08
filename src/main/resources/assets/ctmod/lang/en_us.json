@@ -15,6 +15,8 @@
   "item.ctmod.tin_ingot": "Tin Ingot",
   "item.ctmod.steel_ingot": "Steel Ingot",
 
+  "item.ctmod.raw_nickel_ore": "Raw Nickel Ore",
+  "item.ctmod.raw_sliver_ore": "Raw Silver Ore",
 
   "item.ctmod.invar_nugget": "Invar Nugget",
   "item.ctmod.electrum_nugget": "Electrum Nugget",
@@ -27,7 +29,6 @@
   "item.ctmod.iridium_nugget": "Iridium Nugget",
   "item.ctmod.lead_nugget": "Lead Nugget",
   "item.ctmod.nickel_nugget": "Nickel Nugget",
-  "item.ctmod.raw_nickel_ore": "Raw Nickel Ore",
   "item.ctmod.platinum_nugget": "Platinum Nugget",
   "item.ctmod.silver_nugget": "Silver Nugget",
   "item.ctmod.tin_nugget": "Tin Nugget",
@@ -51,10 +52,12 @@
   "block.ctmod.iridium_block": "Iridium Block",
   "block.ctmod.lead_block": "Lead Block",
   "block.ctmod.nickel_block": "Nickel Block",
-  "block.ctmod.nickel_ore": "Nickel Ore",
+
   "block.ctmod.silver_block": "Silver Block",
   "block.ctmod.constantan_block": "Conastantan Block",
 
+  "block.ctmod.nickel_ore": "Nickel Ore",
+  "block.ctmod.silver_ore": "Silver Ore",
 
   "creativetab.tab_1": "CatTech"
 }

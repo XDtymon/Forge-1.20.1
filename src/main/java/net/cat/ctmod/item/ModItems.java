@@ -55,6 +55,12 @@ public class ModItems {
     public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_SILVER_ORE = ITEMS.register("raw_silver_ore",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SILVER_ORE = ITEMS.register("silver_ore",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties()));
 
@@ -91,7 +97,7 @@ public class ModItems {
     public static final RegistryObject<Item> NICKEL_NUGGET = ITEMS.register("nickel_nugget",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> RAW_NICKE_ORE = ITEMS.register("raw_nickel_ore",
+    public static final RegistryObject<Item> RAW_NICKEL_ORE = ITEMS.register("raw_nickel_ore",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
